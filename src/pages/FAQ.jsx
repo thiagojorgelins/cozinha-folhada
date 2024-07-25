@@ -1,14 +1,14 @@
+import "./pages.css"
+import { Link } from "react-router-dom"
+
 const FAQ = () => {
-    return (
-      <>
-          <h1>FAQ de Delivery</h1>
-        <p>
-          COMIDA FEITA COM INGREDIENTES À <br />
-          BASE DE PLANTAS E MUITO AMOR
-        </p>
-      </>
-    );
-  };
-  
-  export { FAQ };
-  
+  return (
+    <div className="main">
+      <Link to="/" className="content">
+      </Link>
+      <h1>FAQ de Delivery</h1>
+    </div>
+  );
+};
+
+export { FAQ };

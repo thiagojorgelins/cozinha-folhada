@@ -1,14 +1,14 @@
+import "./pages.css"
+import { Link } from "react-router-dom"
+
 const Espaco = () => {
-    return (
-      <>
-          <h1>Espaco</h1>
-        <p>
-          COMIDA FEITA COM INGREDIENTES À <br />
-          BASE DE PLANTAS E MUITO AMOR
-        </p>
-      </>
-    );
-  };
-  
-  export { Espaco };
-  
+  return (
+    <div className="main">
+      <Link to="/" className="content">
+      </Link>
+      <h1>Espaco</h1>
+    </div>
+  );
+};
+
+export { Espaco };

@@ -1,14 +1,14 @@
+import "./pages.css"
+import { Link } from "react-router-dom"
+
 const PratosEstacao = () => {
-    return (
-      <>
-          <h1>Pratos da Estação</h1>
-        <p>
-          COMIDA FEITA COM INGREDIENTES À <br />
-          BASE DE PLANTAS E MUITO AMOR
-        </p>
-      </>
-    );
-  };
-  
-  export { PratosEstacao };
-  
+  return (
+    <div className="main">
+      <Link to="/" className="content">
+      </Link>
+      <h1>Pratos da Estação</h1>
+    </div>
+  );
+};
+
+export { PratosEstacao };

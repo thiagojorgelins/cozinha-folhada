@@ -1,6 +1,6 @@
 .link-style {
   text-decoration: none;
-  color: black;
+  color: #403D32;
   padding: 1em;
   display: block;
   width: 100%;
@@ -9,6 +9,6 @@
 }
 
 .link-style:hover {
-  background-color: #000;
-  color: #F0EBE4;
+  background-color: #403D32;
+  color: #D7D9CC;
 }

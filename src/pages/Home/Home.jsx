@@ -1,6 +1,6 @@
 import { CContainer, CRow, CCol } from "@coreui/react";
 import { Link } from "react-router-dom";
-import "./styles.css"; // Importe o arquivo CSS
+import "./styles.css"
 
 const Home = () => {
   return (
