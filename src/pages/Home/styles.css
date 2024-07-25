@@ -1,0 +1,14 @@
+.link-style {
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.link-style:hover {
+  background-color: #000;
+  color: #F0EBE4;
+}
